@@ -41,8 +41,13 @@
     }
   }
   
-  @media only screen and ( (min-width:250px) and (max-width: 500px) ){
+  @media only screen and ( (max-width: 400px) ){
+    .row{
+      flex-direction: column;
+      width: 100%;
+    }
    .col{
+    width: 100%;
     flex-direction: column;
    }
    .image{
