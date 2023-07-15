@@ -26,12 +26,4 @@ previewContainer.addEventListener('click', () => {
   previewContainer.style.display = 'none';
 });
 
-// function zoomInOut(img) {
-//     if (img.style.cursor === 'zoom-in') {
-//       img.style.cursor = 'zoom-out';
-//     } else {
-//       img.style.cursor = 'zoom-in';
-//     }
-//     // img.style.cursor = 'zoom-out';
-//   }
   

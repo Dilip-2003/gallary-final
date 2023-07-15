@@ -3,9 +3,9 @@
   padding: 0;
   margin: 0;
 }
-/* body{
+body{
   position: relative;
-} */
+}
 .gallary{
   display: flex;
   flex-direction: column;
@@ -15,14 +15,12 @@
   height: auto;
   display: flex;
   flex-direction: row;
-  /* margin: 15px; */
 }
 .col{
   width: 50%;
   height: auto;
   display: flex;
   flex-direction: row;
-  position: relative;
 }
 .image{
   width: 49%;
@@ -46,7 +44,6 @@
   display: none;
   cursor: zoom-out;
   z-index: 999;
-  /* background-position:sticky; */
 
 }
   @media all and ((min-width:481px) and (max-width: 768px)) {
@@ -66,9 +63,7 @@
       left: 25px;
       display: none;
     }
-    /* .image{
-      margin: 0;
-    } */
+   
   }
   
   @media all and ( (min-width:0px) and (max-width: 480px) ){
